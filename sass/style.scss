@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-main{
+    background-color: #b87272;
+    // width: 90%;
+    // max-width: 800px;
+    // min-height: 600px;
+    // margin: 80px auto;
+    // border: 3px  solid #d11717; 
+    // display: flex;
+    // flex-flow: row wrap-reverse;
+}
+
+.container{
+    width: 90%;
+    max-width: 800px;
+    min-height: 600px;
+    margin: 80px auto;
+    border: 3px  solid #be1818;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    gap: 10px;
+    justify-content:space-evenly;
+    /* row / row-reverse / column / colum-reverse */
+
+    /* flex-flow: row  wrap; 
+    row : direccion (flex-direction: row;) 
+    flex-wrap; : envoltorio (flex-wrap: wrap;) permite expandirce hacia abajo y nowrap en la misma fila  */
+    /* justify-content:space-evenly;*/
+    /* align-content: space-evenly; */
+    // align-content:space-evenly;
+    /* align-items:stretch; */
+    
+}
+
+.container-menus {
+    background-color: rgb(60, 175, 137);
+    display: flex;    
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.element {
+    color :#fff;
+    font-size:2rem;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(146, 146, 196);
+    width:100px;
+    height: 100px;
+}
+
+.element1{
+    background-color: brown;
+}
+
+.element2{
+    background-color:blueviolet;
+    order: 4;
+    flex: 1;
+    transition: flex .5s ;
+}
+
+.element3{
+    background-color:darkgreen;
+}
+
+.div:hover {
+    flex: 4;
+}
+
+
+
+
+.container-banner{
+    background-color: rgb(49, 19, 19);
+}
+
+.banner{
+    color :#fff;
+    font-size:2rem;
+    line-height: 100px;
+    text-align: center;
+    margin: 15px;
+    width:100px;
+    height: 200px;
+    background-color: rgb(158, 31, 31);
+}
+
+
+
+/* .section {
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+    border: 1px dashed black;
+}
+
+.block2 {
+    position: absolute;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    left: 0px;
+    top: 0px;
+} */
